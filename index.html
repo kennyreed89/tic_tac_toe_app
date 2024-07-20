@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xando</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="stylesheet.js" defer></script>
+  </head>
+  <body>
+    <div class="gameBoard" id="gameBoard">
+      <div class="cell x" data-cell></div>
+      <div class="cell o" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    <div id="winStatement">
+      <div data-winning-message-text>X Won</div>
+      <button class="restartGame" hidden id="restartGame">Play Again!</button>
+    </div>
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+  </body>
+</html>
